@@ -1,21 +1,24 @@
 # Change log for libL3Cam
+
 All notable changes to the libL3Cam library will be documented in this file.
 
-[0.1.15R] - 22/09/2023
---------------------
+## [0.1.15R] - 22/09/2023
+
 ### Added
- + Internal improvements for network management
- + New array to store beamagine_app version in l3cam structure
- + Internal calls to initialize the serial number and version in l3cam struct
- + Internal calls to get configured and available sensors
+
+- Internal improvements for network management
+- New array to store beamagine_app version in l3cam structure
+- Internal calls to initialize the serial number and version in l3cam struct
+- Internal calls to get configured and available sensors
 
 ### Changed
 
 ### Fixed
- - Unused error codes
 
 ### Removed
- - ansi_c.h references
+
+- Unused error codes
+- ansi_c.h references
 
 ### Known bugs
 
