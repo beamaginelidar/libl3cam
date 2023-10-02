@@ -24,6 +24,10 @@ All notable changes to the libL3Cam library will be documented in this file.
 
 ### Issues
 
-This version is not fully compatible with l3cam devices with software version older than 2.2.6. When connected with a lower version, the find devices and get sensors available calls will last longer but wont notify timeout error.
+- This version is not fully compatible with l3cam devices with software version older than 2.2.6. When connected with a lower version, the find devices and get sensors available calls will last longer but wont notify timeout error.
 
-Devices with older versions will notify all sensors available and error in the sensors that internally have not been found.
+- Devices with older versions will notify all sensors available and error in the sensors that internally have not been found.
+
+- On getting the network configuration, there's no info of the state of the dhcp parameter.
+
+- There are no getters for the parameters of all sensors except for the allied cameras.
