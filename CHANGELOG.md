@@ -2,6 +2,32 @@
 
 All notable changes to the libL3Cam library will be documented in this file.
 
+## [10/07/2024] VERSION 0.1.18R
+
+### Added 
+
+- Thermal and RGB fisheye cameras fusion
+- Max bias value to 4000
+- Internal error fixes with point cloud color representation
+- Autobias parameter
+- Bias short range parameter
+
+### Changed
+
+### Fixed
+
+### Removed
+
+### Known bugs
+
+### Issues
+
+This version is not fully compatible with l3cam devices with software version older than 2.2.6. When connected with a lower version, the find devices and get sensors available calls will last longer but wont notify timeout error.
+
+Devices with older versions will notify all sensors available and error in the sensors that internally have not been found.
+
+
+
 ## [13/03/2024] VERSION 0.1.17
 
 ### Added
