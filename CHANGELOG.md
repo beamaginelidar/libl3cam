@@ -2,6 +2,16 @@
 
 All notable changes to the libL3Cam library will be documented in this file.
 
+## [24/10/2024] VERSION 0.2.1R
+
+### Added
+
++ Filter for high detectivity noise with depth as parameter
++ Milliseconds to date sync when sending start device request
++ Return value in autobias function
+
+
+
 ## [10/07/2024] VERSION 0.1.18R
 
 ### Added 
